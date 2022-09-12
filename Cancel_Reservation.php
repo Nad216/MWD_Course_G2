@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cancel Reservation</title>
-    <script type="text/javascript" src="CRfunctions.js"></script>
+    <script type="text/javascript" src="js/CRfunctions.js"></script>
 </head>
 <body>
     <form>

@@ -1,6 +1,6 @@
 <?php
 include("database_connection.php");
-$sql = "SELECT Cust_Name FROM customer;";
+$sql = "SELECT Reser_ID FROM Reservation;";
 
 //$ret = mysqli_query($con,$sql);
 //echo "No of records inserted: $ret";
