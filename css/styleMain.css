@@ -195,15 +195,15 @@ header.sticky{
 	margin-left: 2vw;
 	margin-right: 2vw;
 }
-.review_radio{
+.slider #radio1,#radio2,#radio3,#radio4,#radio5,#radio6,#radio7,#radio8,#radio9,#radio10{
 	display: none;
 }
-/*Manual Navigation*/
+/*Manual Navigation
 .navigate_manual{
 	position: absolute;
 	width: 90vw;
-	height: 175px;
-	margin-top: 120px;
+	height: 5px;
+	margin-top: 0;
 	display: flex;
 	justify-content: center;
 }
@@ -222,19 +222,43 @@ header.sticky{
 .manual-btn:hover{
 	background: #6e54fa;
 }
-
-.review #radio1:checked ~ .first{
+*/
+#radio1:checked ~ .slides{
 	margin-left: 0;
 }
 
-.review #radio2:checked ~ .first{
-	margin-left: -10%;
+#radio2:checked ~ .slides{
+	margin-left: -100%;
 }
 
-.review #radio3:checked ~ .first{
-	margin-left: -20%;
+#radio3:checked ~ .slides{
+	margin-left: -200%;
 }
 
-.review #radio4:checked ~ .first{
-	margin-left: -30%;
+#radio4:checked ~ .slides{
+	margin-left: -300%;
+}
+
+#radio5:checked ~ .slides{
+	margin-left: -400%;
+}
+
+#radio6:checked ~ .slides{
+	margin-left: -500%;
+}
+
+#radio7:checked ~ .slides{
+	margin-left: -600%;
+}
+
+#radio8:checked ~ .slides{
+	margin-left: -700%;
+}
+
+#radio9:checked ~ .slides{
+	margin-left: -800%;
+}
+
+#radio10:checked ~ .slides{
+	margin-left: -900%;
 }
