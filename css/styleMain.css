@@ -15,7 +15,7 @@
 	--big-font: 6rem;
 	--h2-font: 3rem;
 	--p-font: 1.1rem;
-	--reviewnos : 3;
+	--top-height: 330px;
 }
 body{
 	background: var(--bg-color);
@@ -41,18 +41,112 @@ header.sticky{
 	box-shadow: rgba(33,35,38, 0.1) 0px 10px 10px -10px;
 }
 /*Top Section*/
-.top_images{
+/*.top_images{
+		
+}*/
+.top{
+	position: relative;
 	display: flex;
 	align-items: center;
 	margin-top: 5rem;
+	margin-left: 0rem;
+	margin-right: 0rem;
+}
+/*scroll effect*/
+.top_slider{
+	width: 100vw;
+	overflow: hidden;
+}
+.top_slides{
+	width: 1000%;
+	display: flex;
+}
+.top_slider .top_radio{
+	display: none;
+}
+
+#top_radio1:checked ~ .top_slides{
+	margin-left: 0;
+}
+
+#top_radio2:checked ~ .top_slides{
+	margin-left: -100%;
+}
+
+#top_radio3:checked ~ .top_slides{
+	margin-left: -200%;
+}
+
+#top_radio4:checked ~ .top_slides{
+	margin-left: -300%;
+}
+
+/*Manual Navigation*/
+
+/*.navigate_manual{
+	position: absolute;
+	width: 90vw;
+	height: 5px;
+	top: -30px;
+	margin-top: calc(var(--top-height));
+	display: flex;
+	justify-content: center;
+}
+.manual-btn{
+	border: 2px solid #fffd96;
+	padding: 5px;	
+	height: 5px;
+	width: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+}
+.manual-btn:not(:last-child){
+	margin-right: 40px;
+}
+.manual-btn:hover{
+	background: #fffd96;
+}*/
+
+/*scroll effect end*/
+
+.top_content{
 	margin-left: 1rem;
-	margin-right: 1rem;	
+	position: relative;
+	width: calc(100vw - 3rem);
 }
 .top_images img{
 	border-radius: 10px;
 	width: 100%;
-	height: 350px;
+	height: var(--top-height);
 	object-fit: cover;
+}
+.top_images_effect{
+	background: radial-gradient(#00000050 60%,#00000090 90%,#000000d0 100%);
+	border-radius: 10px;
+	width: 100%;
+	height: var(--top-height);
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+} 
+.top_details{
+	position: absolute;
+	text-align: center;
+	vertical-align: bottom;
+	top: 100px;
+	width: 100%;
+}
+.top_details h3{
+	color: #fff;
+	font-size: 2.5rem;
+	text-shadow: 0px 0px 10px #000, 0px 0px 15px #000;
+}
+.top_details h4{
+	margin-top: 10px;
+	color: #fff;
+	font-size: 1.5rem;
+	text-shadow: 0px 0px 10px #000, 0px 0px 15px #000;
 }
 /*Deals Section*/
 .deals{	
@@ -195,34 +289,10 @@ header.sticky{
 	margin-left: 2vw;
 	margin-right: 2vw;
 }
-.slider #radio1,#radio2,#radio3,#radio4,#radio5,#radio6,#radio7,#radio8,#radio9,#radio10{
+.slider .radio{
 	display: none;
 }
-/*Manual Navigation
-.navigate_manual{
-	position: absolute;
-	width: 90vw;
-	height: 5px;
-	margin-top: 0;
-	display: flex;
-	justify-content: center;
-}
-.manual-btn{
-	border: 2px solid #6e54fa;
-	padding: 5px;	
-	height: 5px;
-	width: 5px;
-	border-radius: 10px;
-	cursor: pointer;
-	transition: 1s;
-}
-.manual-btn:not(:last-child){
-	margin-right: 40px;
-}
-.manual-btn:hover{
-	background: #6e54fa;
-}
-*/
+
 #radio1:checked ~ .slides{
 	margin-left: 0;
 }
