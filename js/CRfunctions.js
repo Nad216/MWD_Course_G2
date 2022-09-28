@@ -1,8 +1,10 @@
 const header = document.querySelector("header");
 
 window.addEventListener ("scroll", function() {
-	header.classList.toggle ("sticky", window.scrollY > 0);
+	header.classList.toggle ("sticky", window.scrollY > 50);	
 });
+
+
 
 /*Review Automatic Navigation Start*/
 

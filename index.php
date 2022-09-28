@@ -5,16 +5,27 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hotel Dan.. dumm.. </title>
+  <title>Hotel - Royal Gardens </title>
   <link rel="stylesheet" type="text/css" href="css/styleMain.css">
   <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-  <script type="text/javascript" src="js/CRfunctions.js"></script>
+  
 </head>
 
-<body>
+<body background="Img/Back_Pattern.jpg">
   <!--header--->
   <header>
-
+		<div class="header_img">
+      <img src="Img/Logo.gif">
+      <h2> Hotel Royal Gardens</h2>
+    </div>
+    <div class="header_links">
+      <ul>
+        <li><a href="#">Kandy</a></li>
+        <li><a href="#">Hikkaduwa</a></li>
+        <li><a href="#">Trinco</a></li>
+        <li><a href="#">Yala</a></li>
+      </ul>
+    </div>
   </header>
   <!--Top--->
   <section class="top">
@@ -27,9 +38,9 @@
       <input type="radio" name="radio_btn" class="top_radio" id="topradio3">
       <input type="radio" name="radio_btn" class="top_radio" id="topradio4">
       <div class="top_slides">
-        <div class="top_content" id="tpcont1"">
+        <div class="top_content" id="tpcont1">
           <div class="top_images">
-            <img src="Img/1.jpg">
+            <img src="Img/Home_top_1.jfif">
           </div>
           <div class="top_images_effect"></div>
           <div class="top_details">
@@ -39,32 +50,32 @@
         </div>
         <div class="top_content" id="tpcont2">
           <div class="top_images">
-            <img src="Img/1.jpg">
+            <img src="Img/Home_top_2.webp">
           </div>
           <div class="top_images_effect"></div>
           <div class="top_details">
-            <h3>| 222222 |</h3>
-            <h4>Don’t just dream of a vacation. Just do it!</h4>
+            <h3>Our Locations</h3>
+            <h4>Kandy | Hikkaduwa | Trinco | Yala</h4>
           </div>
         </div>
         <div class="top_content" id="tpcont3">
           <div class="top_images">
-            <img src="Img/1.jpg">
+            <img src="Img/Home_top_3.jpeg">
           </div>
           <div class="top_images_effect"></div>
           <div class="top_details">
-            <h3>| 333333 |</h3>
-            <h4>Don’t just dream of a vacation. Just do it!</h4>
+            <h3>Amazing Deals - Just for You!</h3>
+            <h4>Check Our Deals</h4>
           </div>
         </div>
         <div class="top_content" id="tpcont4">
           <div class="top_images">
-            <img src="Img/1.jpg">
+            <img src="Img/Home_top_4.jpg">
           </div>
           <div class="top_images_effect"></div>
           <div class="top_details">
-            <h3>| 444444 |</h3>
-            <h4>Don’t just dream of a vacation. Just do it!</h4>
+            <h3>Luxury is not a place <br> it's an experience.</h3>
+            <h4 style="font-size: 1.3rem;">Located at the perfect place for a perfect vacation.</h4>
           </div>
         </div>
         <div class="navigate_manual">
@@ -109,26 +120,28 @@
   <section class="hotel">
     <br>
     <h2>Our Locations</h2>
-    <div class="hotel_section">
-      <div class="hotel_container">
-        <img src="Img/1.jpg">
-        <h4>Location</h4>
-      </div>
-      <div class="hotel_container">
-        <img src="Img/1.jpg">
-        <h4>Location</h4>
-      </div>
-      <div class="hotel_container">
-        <img src="Img/1.jpg">
-        <h4>Location</h4>
-      </div>
-      <div class="hotel_container">
-        <img src="Img/1.jpg">
-        <h4>Location</h4>
+    <div class="hotel_section_group">
+      <div class="hotel_section">
+        <div class="hotel_container">
+          <img src="Img/1.jpg">
+          <h4>Kandy</h4>
+        </div>
+        <div class="hotel_container">
+          <img src="Img/1.jpg">
+          <h4>Hikkaduwa</h4>
+        </div>
+        <div class="hotel_container">
+          <img src="Img/1.jpg">
+          <h4>Trinco</h4>
+        </div>
+        <div class="hotel_container">
+          <img src="Img/1.jpg">
+          <h4>Yala</h4>
+        </div>
       </div>
     </div>
   </section>
-  <!--Hotels--->
+  <!--review--->
   <section class="review">
     <div class="slider">
       <input type="radio" name="radio_btn" class="radio" id="radio1">
@@ -143,7 +156,9 @@
         <?php include ("Review_details.php");?>
       </div>      
     </div>
-  </section>
+  </section>  
+
+  <script type="text/javascript" src="js/CRfunctions.js"></script>
 </body>
 
 </html>
