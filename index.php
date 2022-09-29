@@ -7,26 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hotel - Royal Gardens </title>
   <link rel="stylesheet" type="text/css" href="css/styleMain.css">
+  <link rel="stylesheet" type="text/css" href="css/styleHeader_footer.css">
   <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-  
+
 </head>
 
 <body background="Img/Back_Pattern.jpg">
   <!--header--->
   <header>
-		<div class="header_img">
-      <img src="Img/Logo.gif">
-      <h2> Hotel Royal Gardens</h2>
-    </div>
-    <div class="header_links">
-      <ul>
-        <li><a href="#">Kandy</a></li>
-        <li><a href="#">Hikkaduwa</a></li>
-        <li><a href="#">Trinco</a></li>
-        <li><a href="#">Yala</a></li>
-      </ul>
-    </div>
+    <?php include ("Header.php");?>		
   </header>
+  <script type="text/javascript" src="js/Headerfunctions.js"></script>
   <!--Top--->
   <section class="top">
     <div class="top_slider">

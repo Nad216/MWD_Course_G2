@@ -1,0 +1,168 @@
+/*Header Section*/
+header{
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: linear-gradient(to bottom,#e9e9e9,#c3c3c4);
+	padding: 10px 12%;
+	transition: ease 1s;
+	box-shadow: 0px 0px 15px #000000;	
+}
+.header_img{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition: ease .40s;	
+}
+.header_img img{
+	height: 95px;
+	width: 95px;
+	transition: ease 2s;
+}
+.header_img h2{
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	font-size: 40px;
+	font-family: 'Trebuchet MS';
+	font-weight: 800;
+	color: #740202;
+	transition: ease .40s;
+}
+.navbar{
+	display: flex;
+	flex-direction: column;
+	transition: ease 2s;
+}
+.navbar li{
+	font-size: 20px;
+	padding: 5px 22px;	
+	transition: ease .40s;
+	border-radius: 4px;	
+}
+.navbar a{
+	padding: 5px 22px;
+	font-family: 'Trebuchet MS';
+	font-weight: 500;
+	color: #8b0303;
+	transition: ease .40s;
+}
+
+#menu-icon{
+	color: #8b0303;
+	font-size: 35px;
+	z-index: 10001;
+	cursor: pointer;
+	display: none;
+}
+
+.navbar a:hover{
+	background: #00000051;
+	color: rgb(255, 255, 255);
+	border-radius: 4px;
+	transition: ease .40s;
+}
+.navbar .nav_img{
+	display: none;
+}
+
+
+
+/*Sticky start*/
+
+header.sticky{
+	padding: 10px 5%;	
+}
+
+.sticky .header_img img{
+	height: 55px;
+	width: 55px;
+}
+.sticky .header_img h2{
+	font-size: 20px;
+}
+
+.sticky .header_img{
+	flex-direction: row;
+}
+
+.sticky .navbar li{
+	font-size: 15px;
+	padding: 0px;
+}
+.sticky .navbar a{
+	padding: 8px 18px;
+}
+
+.sticky .navbar{
+	flex-direction: row;
+}
+
+/*Sticky end*/
+
+
+@media (max-width: 900px){
+	.navbar{
+		transition: 0s ease;
+	}
+	.sticky .navbar a{
+		display: block;
+		margin: 0.6rem 0;
+	}
+	#menu-icon{
+		display: none;
+	}
+	.sticky #menu-icon{
+		display: flex;
+	}
+	.sticky .navbar{
+		position: absolute;
+		top: 0;
+		right: -100%;
+		width: 270px;
+		height: 120vh;
+		background: #fff;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 60px 30px;
+		transition: 0.5s all;		
+	}
+    .header_img h2{
+		font-size: 25px;
+		
+	}
+	.sticky .navbar li{
+		font-size: 25px;
+		
+	}
+	.sticky .navbar .nav_img{
+		display: flex;
+		width: 150px;
+		margin-top: auto;
+		margin-bottom: 150px;
+	}
+
+	.sticky .open{
+		right: 0;
+	}	
+	.sticky .list{
+		width: 12px;
+		margin-bottom: 0;
+	}
+}
+@media (max-width: 600px){
+	.header_img h2{
+		font-size: 20px;	
+    }
+    body{
+        min-width: 550px;;
+    }
+
+}
