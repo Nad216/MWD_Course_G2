@@ -1,6 +1,5 @@
 /*Review Automatic Navigation Start*/
 
-
 var countrv = 1;
 setInterval(function () {	
 	topa(countrv);		

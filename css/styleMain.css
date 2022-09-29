@@ -5,7 +5,7 @@
 	font-family: 'Poppins', sans-serif;
 	text-decoration: none;
 	list-style: none;
-	scroll-behavior: smooth;
+	scroll-behavior: smooth;	
 }
 :root{
 	--bg-color: #fff;
@@ -325,10 +325,88 @@ body{
 
 
 @media (max-width: 900px){
+	.top{
+		margin-top: 11rem;
+	}
 	.hotel_section{
 		grid-template-columns: repeat(2,1fr);
 	}
 	.deal_section{	
-		grid-template-columns: repeat(1,1fr);
+		grid-template-columns: repeat(1,1fr);		
 	}
+	.hotel_section{
+		padding: 2vw;
+	}
+	
+}
+@media (max-width: 570px){
+	:root{
+		--top-height : 250px;
+		overflow-x: hidden;
+	}
+	.top{		
+		margin-top: 10rem;
+	}
+	.top_content{
+		width: calc(100vw - 3rem);
+	}
+	.top_details h3{
+		font-size: 1.7rem;
+	}
+	.top_details h4{
+		padding: 8px 25px 25px 25px;
+		font-size: 1rem;
+	}
+	.deal_section{
+		width: calc(100vw - 3rem);
+	}
+	.deal_container img{
+		height: 250px;
+	}
+	.deal_container h4{
+		font-size: 1rem;
+		top: .7rem;
+	}
+	.deal_container h5{
+		font-size: 1rem;
+		top: .7rem;
+	}
+	.shape1{
+		height: 15%;
+	}
+	.shape2{	
+		height: 15%;
+	}	
+	.hotel_section{	
+		padding: .5rem;
+		width: calc(100vw - 2rem);
+	}
+	.hotel_container img{
+		height: 250px;
+	}
+	.hotel_container h4{
+		font-size: 1rem;
+	}
+	.hotel_container h5{
+		font-size: 1rem;
+	}
+	.review{	
+		width: calc(100vw - 5rem);	
+	}
+	.slider{
+		height: 175px;
+		width: calc(100vw - 1rem);
+		border-radius: 10px;
+		overflow: hidden;	
+	}
+	.review p{
+		font-size: 12px;
+	}
+	.review h4{
+		font-size: 15px;
+	}
+	.review_stars{
+		font-size: 14px;
+	}
+	
 }

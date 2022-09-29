@@ -11,4 +11,5 @@
         <li><a href="#">Yala</a></li>
         <img class="nav_img" src="Img/Logo.gif">
       </ul>
-    </div>
+    </div>    
+  <script type="text/javascript" src="js/Headerfunctions.js"></script>

@@ -15,9 +15,10 @@
 <body background="Img/Back_Pattern.jpg">
   <!--header--->
   <header>
-    <?php include ("Header.php");?>		
+    <?php include ("Header.php");
+    ?>		
   </header>
-  <script type="text/javascript" src="js/Headerfunctions.js"></script>
+  
   <!--Top--->
   <section class="top">
     <div class="top_slider">
@@ -66,7 +67,7 @@
           <div class="top_images_effect"></div>
           <div class="top_details">
             <h3>Luxury is not a place <br> it's an experience.</h3>
-            <h4 style="font-size: 1.3rem;">Located at the perfect place for a perfect vacation.</h4>
+            <h4>Located at the perfect place for a perfect vacation.</h4>
           </div>
         </div>
         <div class="navigate_manual">
@@ -149,7 +150,7 @@
     </div>
   </section>  
 
-  <script type="text/javascript" src="js/CRfunctions.js"></script>
+  <script type="text/javascript" src="js/Headerfunctions.js"></script>
 </body>
 
 </html>

@@ -11,7 +11,7 @@ header{
 	background: linear-gradient(to bottom,#e9e9e9,#c3c3c4);
 	padding: 10px 12%;
 	transition: ease 1s;
-	box-shadow: 0px 0px 15px #000000;	
+	box-shadow: 0px 0px 15px #000000;		
 }
 .header_img{
 	position: relative;
@@ -19,6 +19,7 @@ header{
 	flex-direction: column;
 	align-items: center;
 	transition: ease .40s;	
+	text-align: center;
 }
 .header_img img{
 	height: 95px;
@@ -34,17 +35,20 @@ header{
 	font-weight: 800;
 	color: #740202;
 	transition: ease .40s;
+	
 }
 .navbar{
 	display: flex;
 	flex-direction: column;
 	transition: ease 2s;
+	
 }
 .navbar li{
 	font-size: 20px;
 	padding: 5px 22px;	
 	transition: ease .40s;
 	border-radius: 4px;	
+	text-align: right;
 }
 .navbar a{
 	padding: 5px 22px;
@@ -127,7 +131,7 @@ header.sticky{
 		right: -100%;
 		width: 270px;
 		height: 120vh;
-		background: #fff;
+		background: linear-gradient(60deg,#cacaca 10%,#e2e2e2 20%,#cacaca 40%,#e2e2e2 60%,#cacaca 80%,#e2e2e2 100%);
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -158,11 +162,28 @@ header.sticky{
 	}
 }
 @media (max-width: 600px){
+	header{
+		padding: 5px 5%;
+	}
 	.header_img h2{
 		font-size: 20px;	
     }
     body{
         min-width: 550px;;
     }
+	.sticky .navbar{
+		width: 160px;
+	}
+	.sticky .navbar li{
+		font-size: 20px;		
+	}
+	.sticky .navbar a{		
+		margin: 0.2rem 0;		
+	}
+	.sticky .navbar .nav_img{
+		width: 100px;
+		margin-top: auto;
+		margin-bottom: 130px;
+	}
 
 }
