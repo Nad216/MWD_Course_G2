@@ -29,6 +29,7 @@ else
 	include ('sessionvar.php');
 }
 
+include ('Get_Tables_Kandy.php');
 include ('Calculate_Guests.php');
 
 ?>
@@ -195,7 +196,7 @@ include ('Calculate_Guests.php');
 					<option value="1">1</option>
 					<option value="2">2</option>
 				</select>
-			<td>count</td>
+			<td><?php echo $_SESSION['Rcount_1']?></td>
 			<td>
 				Rs. <?php echo number_format($_SESSION['price_1_1'],2,".",","); ?><br>
 				Rs. <?php echo number_format($_SESSION['price_1_2'],2,".",","); ?><br>
@@ -234,7 +235,7 @@ include ('Calculate_Guests.php');
 					<option value="1">1</option>
 					<option value="2">2</option>
 				</select>
-			<td>count</td>
+			<td><?php echo $_SESSION['Rcount_2']?></td>
 			<td>
 				Rs. <?php echo number_format($_SESSION['price_2_1'],2,".",","); ?><br>
 				Rs. <?php echo number_format($_SESSION['price_2_2'],2,".",","); ?><br>
@@ -273,7 +274,7 @@ include ('Calculate_Guests.php');
 					<option value="1">1</option>
 					<option value="2">2</option>
 				</select>
-			<td>count</td>
+			<td><?php echo $_SESSION['Rcount_3']?></td>
 			<td>
 				Rs. <?php echo number_format($_SESSION['price_3_1'],2,".",","); ?><br>
 				Rs. <?php echo number_format($_SESSION['price_3_2'],2,".",","); ?><br>

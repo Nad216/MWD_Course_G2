@@ -15,6 +15,11 @@ $_SESSION['r_3_2'] = 0;
 $_SESSION['r_3_3'] = 0;
 $_SESSION['r_3_4'] = 0;
 
+$_SESSION['Rcount_1'] = 0;
+$_SESSION['Rcount_2'] = 0;
+$_SESSION['Rcount_3'] = 0;
+$_SESSION['Rcount_4'] = 0;
+
 $_SESSION['price_1_1'] = 100;
 $_SESSION['price_1_2'] = 150;
 $_SESSION['price_1_3'] = 200;
