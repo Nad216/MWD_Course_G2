@@ -116,20 +116,28 @@
     <div class="hotel_section_group">
       <div class="hotel_section">
         <div class="hotel_container">
-          <img src="Img/1.jpg">
-          <h4>Kandy</h4>
+          <a href="Br_Kandy.php">
+          <img src="Img/HOME_Kandy.jpg">
+          <div class="hotel_images_effect"></div>
+          <h4>Kandy</h4></a>
         </div>
         <div class="hotel_container">
-          <img src="Img/1.jpg">
-          <h4>Hikkaduwa</h4>
+          <a href="Br_Hikkaduwa.php">
+          <img src="Img/HOME_Hikkaduwa.jpg">
+          <div class="hotel_images_effect"></div>
+          <h4>Hikkaduwa</h4></a>
         </div>
         <div class="hotel_container">
-          <img src="Img/1.jpg">
-          <h4>Trinco</h4>
+          <a href="Br_Trinco.php">
+          <img src="Img/HOME_Trincomalee.jpg">
+          <div class="hotel_images_effect"></div>
+          <h4>Trinco</h4></a>
         </div>
         <div class="hotel_container">
-          <img src="Img/1.jpg">
-          <h4>Yala</h4>
+          <a href="Br_Yala.php">
+          <img src="Img/HOME_Yala.jpg">
+          <div class="hotel_images_effect"></div>
+          <h4>Yala</h4></a>
         </div>
       </div>
     </div>
