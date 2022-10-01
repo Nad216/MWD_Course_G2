@@ -12,4 +12,4 @@
         <img class="nav_img" src="Img/Logo.gif">
       </ul>
     </div>    
-  <script type="text/javascript" src="js/Headerfunctions.js"></script>
+  

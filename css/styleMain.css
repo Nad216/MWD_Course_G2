@@ -29,12 +29,12 @@ body{
 	position: relative;
 	display: flex;
 	align-items: center;
-	margin-top: 12rem;
+	margin-top: 11rem;
 	margin-right: 0rem;
 	transition: ease .40s;
 }
-.sticky .top{
-	margin-top: 5rem;
+.stick{
+	margin-top: 6rem;
 }
 /*scroll effect*/
 .top_slider{
@@ -324,10 +324,7 @@ body{
 /*@media sizes*/
 
 
-@media (max-width: 900px){
-	.top{
-		margin-top: 11rem;
-	}
+@media (max-width: 900px){	
 	.hotel_section{
 		grid-template-columns: repeat(2,1fr);
 	}
@@ -342,10 +339,13 @@ body{
 @media (max-width: 570px){
 	:root{
 		--top-height : 250px;
-		overflow-x: hidden;
+		/*overflow-x: hidden;*/
 	}
 	.top{		
 		margin-top: 10rem;
+	}
+	.stick{
+		margin-top: 6rem;
 	}
 	.top_content{
 		width: calc(100vw - 3rem);
@@ -396,8 +396,8 @@ body{
 	.slider{
 		height: 175px;
 		width: calc(100vw - 1rem);
-		border-radius: 10px;
-		overflow: hidden;	
+		border-radius: 10px;	
+		overflow: hidden;
 	}
 	.review p{
 		font-size: 12px;
