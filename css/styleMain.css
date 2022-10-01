@@ -434,8 +434,8 @@ body{
 @media (max-width: 720px){
 	:root{
 		--top-height : 250px;
-		--new-width : 720px;
-		--half-width : 360px;
+		--new-width : 100vw;
+		--half-width : 50vw;
 		/*overflow-x: hidden;*/
 	}
 	body{
@@ -451,13 +451,13 @@ body{
 		width: calc(--new-width*5);
 	}
 	.top_slides{
-		width: calc(--new-width+10px);
+		width: calc(--new-width);
 	}
 	.top{
-		width: calc(--new-width+20px);
+		width: calc(--new-width);
 	}
 	.top_content{
-		width: calc(--new-width+40px);
+		width: calc(--new-width);
 	}
 	.deal_container img{
 		width: calc(--new-width);
@@ -476,6 +476,5 @@ body{
 	.slider{
 		min-width: calc(--new-width);	
 		overflow: hidden;
-	}
-	
+	}	
 }
