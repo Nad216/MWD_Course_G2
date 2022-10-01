@@ -9,15 +9,13 @@
   <link rel="stylesheet" type="text/css" href="css/styleMain.css">
   <link rel="stylesheet" type="text/css" href="css/styleHeader_footer.css">
   <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-  <script type="text/javascript" src="js/CRfunctions.js"></script>
 </head>
 
 <body background="Img/Back_Pattern.jpg">
   <!--header--->
   <header>
     <?php include ("Header.php");
-    ?>		
-    <script type="text/javascript" src="js/Headerfunctions.js"></script>
+    ?>	
   </header>
   
   <!--Top--->
@@ -158,8 +156,8 @@
       </div>      
     </div>
   </section>  
-
-  
+  <script type="text/javascript" src="js/CRfunctions.js"></script>	
+  <script type="text/javascript" src="js/Headerfunctions.js"></script>
 </body>
 
 </html>

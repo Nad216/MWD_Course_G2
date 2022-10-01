@@ -161,7 +161,7 @@ header.sticky{
 		margin-bottom: 0;
 	}
 }
-@media (max-width: 600px){
+@media (max-width: 7200px){
 	header{
 		padding: 5px 5%;
 	}
@@ -183,9 +183,4 @@ header.sticky{
 		margin-bottom: 130px;
 	}
 
-}
-
-@media (max-width: 400px)
-{
-	
 }

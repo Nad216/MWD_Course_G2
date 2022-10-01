@@ -1,3 +1,4 @@
+    
     <div class="header_img"><a href="index.php">
       <img src="Img/Logo.gif">
       <h2> Hotel Royal Gardens</h2></a>
